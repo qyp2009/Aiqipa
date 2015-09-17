@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aiqipa.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.example.aiqipa.control.DefineButtonMainBottom
+                android:id="@+id/mainButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </com.example.aiqipa.control.DefineButtonMainBottom>
+
+            <TextView
+                android:id="@+id/textViewLine1"
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:background="#cccccc"
+                android:paddingTop="14dp" />
+            
+            <com.example.aiqipa.control.DefineButtonMainBottom
+                android:id="@+id/mainButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </com.example.aiqipa.control.DefineButtonMainBottom>
+
+            <TextView
+                android:id="@+id/textViewLine2"
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:background="#cccccc"
+                android:paddingTop="14dp" />
+            
+            <com.example.aiqipa.control.DefineButtonMainBottom
+                android:id="@+id/mainButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </com.example.aiqipa.control.DefineButtonMainBottom>
+
+            <TextView
+                android:id="@+id/textViewLine3"
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:background="#cccccc"
+                android:paddingTop="14dp" />
+            
+            <com.example.aiqipa.control.DefineButtonMainBottom
+                android:id="@+id/mainButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </com.example.aiqipa.control.DefineButtonMainBottom>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
