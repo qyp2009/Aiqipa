@@ -1,6 +1,10 @@
 # Can ignore specific files
 .DS_Store
 
+# Use wildcards as well
+*~
+*.swp
+
 # Built application files
 *.apk
 *.ap_
